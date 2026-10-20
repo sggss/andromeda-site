@@ -1,0 +1,203 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="format-detection" content="telephone=no">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Andromeda">
+<meta name="color-scheme" content="dark">
+<title>Andromeda Cyber Club — компьютерные клубы в Бердске</title>
+<meta name="description" content="Andromeda Cyber Club — два компьютерных клуба в Бердске: Ленина 23А и микрорайон 54. Мощные ПК (до RTX 5070), PlayStation 5, пакеты от 120 ₽/час, акции и бонусы.">
+<meta name="theme-color" content="#0b0516">
+<meta property="og:title" content="Andromeda Cyber Club — Бердск">
+<meta property="og:description" content="Игровые ПК до RTX 5070, PS5, пакеты и бонусы. Два клуба в Бердске.">
+<meta property="og:type" content="website">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Cpath d='M32 4 60 56H4z' fill='none' stroke='%23ff2d78' stroke-width='6' stroke-linejoin='round'/%3E%3Ccircle cx='32' cy='38' r='6' fill='%23ff2d78'/%3E%3C/svg%3E">
+<link rel="preload" href="fonts/unbounded-cyrillic.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="fonts/onest-cyrillic.woff2" as="font" type="font/woff2" crossorigin>
+<script>document.documentElement.classList.add("js")</script>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<canvas id="bg" aria-hidden="true"></canvas>
+
+<header class="nav" id="top">
+  <a class="logo" href="#top" aria-label="Andromeda Cyber Club">
+    <svg viewBox="0 0 64 64" width="30" height="30" aria-hidden="true"><path d="M32 6 58 54H6z" fill="none" stroke="currentColor" stroke-width="5" stroke-linejoin="round"/><path d="M32 22 44 46H20z" fill="currentColor" opacity=".35"/><circle cx="32" cy="38" r="4.5" fill="currentColor"/></svg>
+    <span>ANDROMEDA</span>
+  </a>
+  <nav id="menu" aria-label="Разделы">
+    <a href="#clubs">Клубы</a>
+    <a href="#prices">Цены</a>
+    <a href="#calc">Калькулятор</a>
+    <a href="#specs">Железо</a>
+    <a href="#games">Игры</a>
+    <a href="#promo">Акции</a>
+    <a class="nav-tg" href="https://t.me/andromedaberdsk" target="_blank" rel="noopener">Telegram-канал</a>
+  </nav>
+  <a class="btn btn-sm" href="https://t.me/andromedaberdsk" target="_blank" rel="noopener">Telegram</a>
+  <button class="burger" aria-controls="menu" aria-label="Меню" aria-expanded="false"><i></i><i></i></button>
+</header>
+
+<main>
+<section class="hero">
+  <div class="wrap hero-grid">
+    <div class="hero-text">
+      <p class="eyebrow"><span class="dot"></span> Бердск · 2 клуба · 24/7</p>
+      <h1>Играй на <em>максимуме.</em><br>Плати по-честному.</h1>
+      <p class="lead">Мощные ПК с RTX 5060 и 5070, 240&nbsp;Гц мониторы, PlayStation&nbsp;5 для компании. Час от <b>120&nbsp;₽</b>, ночь от <b>550&nbsp;₽</b>, бонусы за подписку и отзывы.</p>
+      <div class="cta">
+        <a class="btn" href="#prices">Смотреть цены</a>
+        <a class="btn btn-ghost" href="https://t.me/andromedaberdsk" target="_blank" rel="noopener">Канал в Telegram</a>
+      </div>
+      <ul class="stats">
+        <li><b data-count="2">0</b><span>клуба в городе</span></li>
+        <li><b data-count="35" data-plus>0</b><span>игр на ПК</span></li>
+        <li><b data-count="280" data-suffix=" Гц">0</b><span>макс. частота</span></li>
+      </ul>
+    </div>
+    <div class="hero-card" aria-hidden="true">
+      <div class="gpu">
+        <span class="chip">RTX 5070</span>
+        <div class="gpu-name">ULTRA</div>
+        <div class="gpu-sub">Intel i7-12700KF · 32 ГБ · 2K 240 Гц</div>
+        <div class="bars"><i style="--h:60%"></i><i style="--h:85%"></i><i style="--h:45%"></i><i style="--h:95%"></i><i style="--h:70%"></i><i style="--h:100%"></i><i style="--h:55%"></i><i style="--h:80%"></i></div>
+        <div class="gpu-foot"><span>микрорайон 54</span><span>от 180 ₽/час</span></div>
+      </div>
+    </div>
+  </div>
+  <div class="marquee" aria-hidden="true"><div><span>CS 2</span><span>VALORANT</span><span>DOTA 2</span><span>FORTNITE</span><span>PUBG</span><span>GTA 5</span><span>APEX LEGENDS</span><span>WARZONE 2</span><span>RUST</span><span>THE FINALS</span><span>MINECRAFT</span><span>CS 2</span><span>VALORANT</span><span>DOTA 2</span><span>FORTNITE</span><span>PUBG</span><span>GTA 5</span><span>APEX LEGENDS</span><span>WARZONE 2</span><span>RUST</span><span>THE FINALS</span><span>MINECRAFT</span></div></div>
+</section>
+
+<section class="sec" id="clubs">
+  <div class="wrap">
+    <h2 class="reveal">Два клуба — <em>выбирай свой</em></h2>
+    <div class="clubs">
+      <article class="club reveal">
+        <span class="tag">Клуб №1</span>
+        <h3>Ленина 23А</h3>
+        <p class="addr">г. Бердск, улица Ленина, дом 23А</p>
+        <a class="phone" href="tel:+79538603232">+7 953 860-32-32</a>
+        <p>Три зоны: Standart, VIP 1–2 и VIP+ DUO. Плюс PS-зона с двумя PlayStation&nbsp;5.</p>
+        <ul><li>Standart · RTX 2060 Super</li><li>VIP · RTX 3060 Ti, 240 Гц</li><li>VIP+ DUO · RTX 5060, 280 Гц</li><li>2 × PlayStation 5</li></ul>
+        <div class="club-foot"><span>от 120 ₽/час</span><a href="https://yandex.ru/maps/?text=Бердск%2C%20Ленина%2023А%20Andromeda" target="_blank" rel="noopener">Маршрут →</a></div>
+      </article>
+      <article class="club reveal">
+        <span class="tag hot">Клуб №2 · новое железо</span>
+        <h3>Микрорайон 54</h3>
+        <p class="addr">г. Бердск, улица Микрорайон, 54</p>
+        <a class="phone" href="tel:+79232532333">+7 923 253-23-33</a>
+        <p>Два уровня: Comfort и Ultra с самыми мощными картами сети — вплоть до RTX&nbsp;5070 и 2K-монитора.</p>
+        <ul><li>Comfort · RTX 5060, 180 Гц</li><li>Ultra · RTX 5070, 2K 240 Гц</li><li>Intel i7-12700KF</li><li>PlayStation 5</li></ul>
+        <div class="club-foot"><span>от 140 ₽/час</span><a href="https://yandex.ru/maps/?text=Бердск%2C%20микрорайон%2054%20Andromeda" target="_blank" rel="noopener">Маршрут →</a></div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="sec" id="prices">
+  <div class="wrap">
+    <h2 class="reveal">Прайс-лист</h2>
+    <p class="sub reveal">Пакеты выгоднее почасовой оплаты. Утренний пакет действует с 08:00 до 12:00, ночной — с 22:00 до 08:00.</p>
+    <div class="tabs" role="group" aria-label="Клуб для прайса" data-group="price"></div>
+    <div class="table-scroll reveal" role="region" aria-label="Таблица цен, прокручивается по горизонтали" tabindex="0"><table class="price" id="priceTable"></table></div>
+    <div class="ps-box reveal">
+      <div>
+        <h3>PlayStation 5 для компании</h3>
+        <p>Тариф «от 4 человек» — на всех, а не с каждого.</p>
+      </div>
+      <dl>
+        <div><dt>1 час</dt><dd>400&nbsp;₽</dd></div>
+        <div><dt>3 часа</dt><dd>1&nbsp;100&nbsp;₽</dd></div>
+        <div><dt>5 часов</dt><dd>1&nbsp;600&nbsp;₽</dd></div>
+        <div><dt>Ночь</dt><dd>1&nbsp;600&nbsp;₽</dd></div>
+      </dl>
+    </div>
+  </div>
+</section>
+
+<section class="sec" id="calc">
+  <div class="wrap calc">
+    <div>
+      <h2 class="reveal">Сколько <em>стоит</em> сыграть?</h2>
+      <p class="sub reveal">Выбери клуб, зону и время — калькулятор покажет цену и сколько сэкономишь на пакете.</p>
+    </div>
+    <div class="calc-box reveal">
+      <div class="grp" role="group" aria-labelledby="lClub"><span id="lClub">Клуб</span><div class="seg" id="cClub"></div></div>
+      <div class="grp" role="group" aria-labelledby="lZone"><span id="lZone">Зона</span><div class="seg" id="cZone"></div></div>
+      <div class="grp" role="group" aria-labelledby="lPack"><span id="lPack">Пакет</span><div class="seg" id="cPack"></div></div>
+      <div class="result" aria-live="polite" aria-atomic="true">
+        <div><span class="r-label">Итого</span><b id="rPrice">—</b></div>
+        <div class="r-side"><span id="rHour"></span><span id="rSave"></span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="sec" id="specs">
+  <div class="wrap">
+    <h2 class="reveal">Железо без <em>компромиссов</em></h2>
+    <p class="sub reveal">Периферия, которой пользуются киберспортсмены. Сравни зоны.</p>
+    <div class="tabs" role="group" aria-label="Клуб для характеристик" data-group="spec"></div>
+    <div class="specs" id="specCards"></div>
+  </div>
+</section>
+
+<section class="sec" id="games">
+  <div class="wrap">
+    <h2 class="reveal">Библиотека <em>игр</em></h2>
+    <p class="sub reveal">Всё установлено и обновлено. Нет нужной игры — напиши в Telegram.</p>
+    <div class="games-bar reveal">
+      <div class="tabs" role="group" aria-label="Платформа" data-group="games"></div>
+      <input id="gameSearch" type="search" placeholder="Найти игру…" aria-label="Поиск игры" autocomplete="off">
+    </div>
+    <ul class="games" id="gameList"></ul>
+    <p class="empty" id="gameEmpty" role="status" hidden>Такой игры в списке нет — но мы можем установить. <a href="https://t.me/andromedaberdsk" target="_blank" rel="noopener">Напиши нам в Telegram</a>.</p>
+  </div>
+</section>
+
+<section class="sec" id="promo">
+  <div class="wrap">
+    <h2 class="reveal">Акции и <em>бонусы</em></h2>
+    <div class="promos">
+      <article class="promo p1 reveal">
+        <b>500 ₽</b><h3>День рождения</h3>
+        <p>500 ₽ бонусами и скидка 10%. Действует в дни вокруг дня рождения.</p>
+      </article>
+      <article class="promo p2 reveal">
+        <b>+100 ₽</b><h3>Отзыв на картах</h3>
+        <p>Оставь отзыв на картах и получи +100 ₽. Акция действует при оплате от 100 рублей.</p>
+      </article>
+      <article class="promo p3 reveal">
+        <b>+100 ₽</b><h3>Подписка на Telegram</h3>
+        <p>Подпишись на канал и получи +100 ₽ при пополнении от 100 ₽.</p>
+        <a href="https://t.me/andromedaberdsk" target="_blank" rel="noopener">Подписаться →</a>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="sec final">
+  <div class="wrap">
+    <div class="final-box reveal">
+      <h2>Готов зайти в игру?</h2>
+      <p>Новости, турниры и акции — в нашем Telegram-канале. Подпишись и забери +100&nbsp;₽.</p>
+      <a class="btn" href="https://t.me/andromedaberdsk" target="_blank" rel="noopener">Открыть Telegram</a>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="wrap foot">
+    <div><b>ANDROMEDA CYBER CLUB</b><span>Работаем 24/7</span><span>г. Бердск, Ленина, 23А · <a href="tel:+79538603232">+7 953 860-32-32</a></span><span>г. Бердск, Микрорайон, 54 · <a href="tel:+79232532333">+7 923 253-23-33</a></span></div>
+    <div class="links"><a href="https://t.me/andromedaberdsk" target="_blank" rel="noopener">Telegram</a><a href="https://vk.ru/andromedaberdsk" target="_blank" rel="noopener">ВКонтакте</a></div>
+  </div>
+</footer>
+
+<a class="fab" href="https://t.me/andromedaberdsk" target="_blank" rel="noopener">Telegram · +100 ₽ за подписку</a>
+<script src="app.js" defer></script>
+</body>
+</html>
